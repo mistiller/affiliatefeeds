@@ -1,0 +1,46 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Custom
+!*.*
+/vendor/
+/.VSCodeCounter/
+_vendor-*
+*.vlog
+*.sst
+MANIFEST
+/logs/
+*.txt
+private-env.list
+
+#cache files
+/cache/
+/vendor.orig/
+LOCK
+MANIFEST
+
+nohup.out
+
+wc-feedservice
+vsf-feedservice
+csv-feedservice
+
+attributes.json
+categories.json
+products.json
+
+nohup.out
+
+*.csv
+*.csv.zip
+*.json

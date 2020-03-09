@@ -1,0 +1,30 @@
+country: "SE"
+locale: "sv_se"
+language: "sv"
+woocommerce:
+    domain: https://www.test.com
+tradedoubler:
+    conversionTable: testtable
+    website:
+        name: testsite
+dynamodb:
+    productTable: test_products
+gsheet:
+    categories:
+        id: "abc"
+        range: "categories!A2:C"
+    colors:
+        id: "abc"
+        range: "colors!A2:C"
+    sizes:
+        id: "abc"
+        range: "sizes!A2:C"
+    patterns:
+        id: "abc"
+        range: "patterns!A2:C"
+    genders:
+        id: "abc"
+        range: "genders!A2:C"
+email:
+    name: test@name.com
+    server: smtp.test.com:465
